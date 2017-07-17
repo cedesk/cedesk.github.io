@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# CEDESK - Concurrent Engineering Data Exchange Skoltech #
 
-You can use the [editor on GitHub](https://github.com/cedesk/cedesk.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is a collaboration tool for parametric system modeling in [Concurrent Engineering Design Lab](http://crei.skoltech.ru/space/research/labs/concurrent-engineering-design-laboratory/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## General Concept
 
-### Markdown
+CEDESK was conceived as a data exchange tool for concurrent engineering design studies. It is meant to support the collaboration between engineers working together through a common model of the system. Each engineer uses specific tools to elaborate on aspects or parts of the system. These domain specific models can be arbitrary complex and use different specialized tools to work with them, whereas the common system model most and for all contains those design parameters through which the parts are interconnected/interdependent.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+A goal in the development of the data exchange is not to duplicate functionality of engineering tools, but rather interconnect existing ones in a way to provide fast and easy-to-use integration.
 
-```markdown
-Syntax highlighted code block
+## Quick summary
 
-# Header 1
-## Header 2
-### Header 3
+* Architecture: 2 tier (Client application + Database)
+* Rich Client based on JavaFX
+* Serice Layer with Spring Context
+* Persistence Layer with Spring JPA and Hibernate
+* Server part is an SQL database
+* Current State: Development
 
-- Bulleted
-- List
+## List of used OSS Libraries
 
-1. Numbered
-2. List
+* jUnit, 4.12, Eclipse Public License 1.0
+* Mockito-Core, 2.8.47, MIT license
+* spring-context, 4.3.9, Apache 2.0
+* spring-data-jpa, 1.11.4, Apache 2.0
+* hibernate-core, 5.2.10, LGPL 2.1
+* mysql-connector-java, 6.0.6, GPL 2.0
+* hibernate-jpa, 1.0.0, EDL 1.0, EPL 1.0
+* hibernate-envers, 5.2.10, LGPL 2.1
+* slf4j-log4j12, 1.7.21, MIT license
+* hsqldb, 2.3.4, BSD
+* apache-poi, 3.16, Apache 2.0
+* apache-poi-ooxml, 3.16, Apache 2.0
+* controlsfx, 8.40.12, EPL 1.0
+* jfxtras-labs, 8.0-r5, BSD 2-clause
+* apache-commons-math3, 3.5, Apache 2.0
+* apache-commons-lang3, 3.5, Apache 2.0
+* commons-beanutils, 1.9.3, Apache 2.0
+* jgrapht-core, 1.0.1, EPL 1.0, LGPL 2.1
+* jsoup, 1.10.2, MIT license
 
-**Bold** and _Italic_ and `Code` text
+## Release History
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cedesk/cedesk.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* 2017-07-24 - Version 1.28 -- first public release as Open Source Software
