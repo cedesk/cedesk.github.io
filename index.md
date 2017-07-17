@@ -1,6 +1,6 @@
-# CEDESK - Concurrent Engineering Data Exchange Skoltech #
+# CEDESK - Concurrent Engineering Data Exchange Skoltech
 
-This is a collaboration tool for parametric system modeling in [Concurrent Engineering Design Lab](http://crei.skoltech.ru/space/research/labs/concurrent-engineering-design-laboratory/).
+This is a open source collaboration tool for parametric system modeling in [Concurrent Engineering Design Lab](http://crei.skoltech.ru/space/research/labs/concurrent-engineering-design-laboratory/).
 
 ## General Concept
 
@@ -42,3 +42,5 @@ A goal in the development of the data exchange is not to duplicate functionality
 ## Release History
 
 * 2017-07-24 - Version 1.28 -- first public release as Open Source Software
+
+## License
