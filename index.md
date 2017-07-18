@@ -7,13 +7,12 @@ A goal in the development of the data exchange is not to duplicate functionality
 ## Quick summary
 
 * Architecture: 2 tier (Client application + Database)
-* Rich Client based on JavaFX
-* Serice Layer with Spring Context
-* Persistence Layer with Spring JPA and Hibernate
+* Rich client based on JavaFX
+* Serice layer with Spring Context
+* Persistence layer with Spring JPA and Hibernate
 * Server part is an SQL database
-* Current State: Development
 
-## List of used OSS Libraries
+## Used OSS Libraries
 
 * jUnit, 4.12, Eclipse Public License 1.0
 * Mockito-Core, 2.8.47, MIT license
