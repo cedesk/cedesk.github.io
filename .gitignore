@@ -1,4 +1,2 @@
-.idea
-_site
-*.iml
-*.lock
+_site/*
+.DS_Store
