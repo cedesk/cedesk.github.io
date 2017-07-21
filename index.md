@@ -1,14 +1,20 @@
 ## General Concept
 
-CEDESK was conceived as a data exchange tool for concurrent engineering design studies. It is meant to support the collaboration between engineers working together through a common model of the system. Each engineer uses specific tools to elaborate on aspects or parts of the system. These domain specific models can be arbitrary complex and use different specialized tools to work with them, whereas the common system model most and for all contains those design parameters through which the parts are interconnected/interdependent.
-
+CEDESK is a tool to facilitate co-located collaborative model based conceptual design for space missions and complex systems. Multidisciplinary teams of engineers and scientists can use it for working together with a shared parametric model of any type of system. 
+Features:
+* _conceptual design_ - supports the team in iterative design by exchanging data between various disciplines and types of models, and guiding the * iterative process until a the design is consolidated.
+* _shared repository_ - storage of system model including it’s history.
+* _concurrent work_ - facilitate synchronization of simultaneous work.
+* _interactive analytics_ (Design Structure Matrix, Multi-Attribute Tradespaces) to support the decision making.
+Each discipline expert uses specific tools to elaborate on aspects or parts of the system. These domain specific models can be arbitrary complex and use different specialized tools to work with them, whereas the common system model contains those design parameters through which the parts are interconnected/interdependent.
 A goal in the development of the data exchange is not to duplicate functionality of engineering tools, but rather interconnect existing ones in a way to provide fast and easy-to-use integration.
+
 
 ## Quick summary
 
 * Architecture: 2 tier (Client application + Database)
 * Rich client based on JavaFX
-* Serice layer with Spring Context
+* Service layer with Spring Context
 * Persistence layer with Spring JPA and Hibernate
 * Server part is an SQL database
 
