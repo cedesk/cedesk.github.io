@@ -11,12 +11,17 @@ Features:
 Each discipline expert uses specific tools to elaborate on aspects or parts of the system. These domain specific models can be arbitrary complex and use different specialized tools to work with them, whereas the common system model contains those design parameters through which the parts are interconnected/interdependent.
 A goal in the development of the data exchange is not to duplicate functionality of engineering tools, but rather interconnect existing ones in a way to provide fast and easy-to-use integration.
 
-The software is developed at the [Concurrent Engineering Design Laboratory](http://crei.skoltech.ru/space/research/labs/concurrent-engineering-design-laboratory/), which is part of Space Center of [Skolkovo Institute of Science and Technology](https://www.skoltech.ru), Moscow, Russia.
+The software is developed at the [Concurrent Engineering Design Laboratory](http://crei.skoltech.ru/space/research/labs/concurrent-engineering-design-laboratory/), which is part of Space Center of [Skolkovo Institute of Science and Technology](https://www.skoltech.ru).
 
 ## Team
-* Dominik Knoll - Main Author - PhD student - [mail](mailto:d.knoll@skoltech.ru) - [webpage](http://crei.skoltech.ru/space/people/dominikknoll)
+* Dominik Knoll - Main Author - PhD student - [webpage](http://crei.skoltech.ru/space/people/dominikknoll)
 * Nikolay Groshkov - Co-Author - Software Developer
 * Alessandro Golkar, PhD - Academic Advisor - Associate Professor - [webpage](http://faculty.skoltech.ru/people/alessandrogolkar)
+
+## Contact
+Dominik Knoll, [email](mailto:d.knoll@skoltech.ru)
+Skolkovo Institute of Science and Technology, [web](https://www.skoltech.ru)
+3 Nobel Street, 143026, Moscow, Russia
 
 ## Quick summary
 
@@ -24,7 +29,7 @@ The software is developed at the [Concurrent Engineering Design Laboratory](http
 * Rich client based on JavaFX
 * Service layer with Spring Context
 * Persistence layer with Spring JPA and Hibernate
-* Server part is an SQL database
+* Server part is a MySQL database
 
 ## Used OSS Libraries
 
@@ -52,7 +57,7 @@ The software is developed at the [Concurrent Engineering Design Laboratory](http
 * spring-data-jpa, 1.11.4, Apache 2.0
 
 ## Source Code Repository
-On github: https://github.com/cedesk/data-exchange
+[github.com/cedesk/data-exchange](https://github.com/cedesk/data-exchange)
 
 ## Release History
 
