@@ -5,11 +5,14 @@ subtitle: An open source collaboration tool for conceptual design with parametri
 use-site-title: true
 ---
 
+* TOC
+{:toc}
+
 ## General Concept
 
 CEDESK is a tool to facilitate co-located collaborative model based conceptual design for space missions and complex systems. Multidisciplinary teams of engineers and scientists can use it for working together with a shared parametric model of any type of system.
 
-### Features
+## Features
 
 * **conceptual design** - supports the team in iterative design by exchanging data between various disciplines and types of models, and guiding the * iterative process until a the design is consolidated.
 * **shared repository** - storage of system model including it’s history.
@@ -21,7 +24,9 @@ A goal in the development of the data exchange is not to duplicate functionality
 
 The software is developed at the [Concurrent Engineering Design Laboratory](http://crei.skoltech.ru/space/research/labs/concurrent-engineering-design-laboratory/), which is part of [Space Center](http://crei.skoltech.ru/space/) of [Skolkovo Institute of Science and Technology](https://www.skoltech.ru).
 
-### [Screenshots](screenshots)
+## [Screenshots](screenshots)
+
+## [Download/Install](setup)
 
 ## Team
 * Dominik Knoll - Main Author - PhD student - [web](http://crei.skoltech.ru/space/people/dominikknoll)
@@ -38,7 +43,7 @@ Skolkovo Institute of Science and Technology, [web](https://www.skoltech.ru)<br/
 
 ## Release History
 
-* 2017-07-24 - Version 1.28 -- first public release as Open Source Software
+* 2017-07-22 - Version 1.29 -- first public release as Open Source Software
 
 ## MIT License
 Copyright 2017 Dominik Knoll and Nikolay Groshkov

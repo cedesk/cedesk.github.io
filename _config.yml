@@ -12,7 +12,9 @@ description: An open source collaboration tool for conceptual design with parame
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  Screenshots: "screenshots"
+  Tool:
+    - Screenshots: "screenshots"
+    - Download/Install: "setup"
   Internals: 
     - Overview: "internals"
     - Developers Guide: "developers-guide"
