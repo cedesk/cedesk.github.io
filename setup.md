@@ -6,9 +6,9 @@ title: Download and Install CEDESK
 
 | Version | Platform | Installer Package |
 |---|---|---|
-| 1.28 | Windows | [cedesk-1.28.exe](https://www.dropbox.com/s/u5g0psget0zgb6l/cedesk-1.28_2017-07-22_05-02.exe?dl=0) |
-| 1.28 | MacOS | [cedesk-1.28.dmg](https://www.dropbox.com/s/h9c0hnf9lmbo64w/cedesk-1.28_2017-07-21_23-40.dmg?dl=0) |
-| 1.28 | Linux | [cedesk-1.28.deb](https://www.dropbox.com/s/tnh6xz19vg8fzu2/cedesk-1.28_2017-07-22_16-19.deb?dl=0) |
+| 1.29 | Windows | [cedesk-1.29.exe](https://www.dropbox.com/s/nd7vnz0h9nlnm3b/cedesk-1.29_2017-07-22_23-26.exe?dl=0) |
+| 1.29 | MacOS | [cedesk-1.29.dmg](https://www.dropbox.com/s/5749jdill4dzdk1/cedesk-1.29_2017-07-22_23-11.dmg?dl=0) |
+| 1.29 | Linux | [cedesk-1.29.deb](https://www.dropbox.com/s/ywaxg3h079o40t4/cedesk-1.29_2017-07-22_23-08.deb?dl=0) |
 
 
 ## Installation
