@@ -12,6 +12,8 @@ subtitle: The internal structure of the software.
 * Persistence layer with Spring JPA and Hibernate
 * Server part is a MySQL database
 
+## [Developers Guide](/developers-guide)
+
 ## Used OSS Libraries
 
 * apache-commons-lang3, 3.5, Apache 2.0
