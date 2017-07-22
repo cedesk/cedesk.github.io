@@ -97,12 +97,13 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #F5F5F5;
+  background: #005EA1;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .navbar-custom .nav li a {
+  color: white;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
@@ -111,7 +112,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #404040;
+  color: white;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -465,7 +466,7 @@ footer .theme-by {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 27px;
+  font-size: 22px;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -509,9 +510,9 @@ footer .theme-by {
   .intro-header.big-img .post-heading  {
     padding: 150px 0;
   }
-  .intro-header .page-heading h1 {
+/*  .intro-header .page-heading h1 {
     font-size: 80px;
-  }
+  }*/
   .intro-header .post-heading h1 {
     font-size: 50px;
   }
