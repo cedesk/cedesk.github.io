@@ -10,6 +10,10 @@ title: Download and Install CEDESK
 | 1.29 | MacOS | [cedesk-1.29.dmg](https://www.dropbox.com/s/5749jdill4dzdk1/cedesk-1.29_2017-07-22_23-11.dmg?dl=0) |
 | 1.29 | Linux | [cedesk-1.29.deb](https://www.dropbox.com/s/ywaxg3h079o40t4/cedesk-1.29_2017-07-22_23-08.deb?dl=0) |
 
+| Version | Platform | Source Code |
+|---|---|---|
+| 1.29 | Any | [archive-v1.29.zip](https://github.com/cedesk/data-exchange/archive/v1.29.zip) |
+
 
 ## Installation
 
