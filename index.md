@@ -39,7 +39,13 @@ Skolkovo Institute of Science and Technology, [web](https://www.skoltech.ru)<br/
 3 Nobel Street, 143026, Moscow, Russia
 
 ## Source Code Repository
-[github.com/cedesk/data-exchange](https://github.com/cedesk/data-exchange)
+The source code is available at [Github](https://github.com/cedesk/data-exchange).
+
+Development related documentation is given in the [developers guide](/developers-guide).
+
+## Issue Tracker
+Bugs and feature requests can be also filed at 
+[Github](hhttps://github.com/cedesk/data-exchange/issues).
 
 ## Release History
 

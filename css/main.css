@@ -256,7 +256,7 @@ img {
 /* --- Footer --- */
 
 footer {
-  padding: 30px 0;
+  padding: 20px 0;
   background: #F5F5F5;
   border-top: 1px #EAEAEA solid;
   margin-top: 50px;
@@ -276,15 +276,14 @@ footer .copyright {
   text-align: center;
   margin-bottom: 0;
 }
-footer .theme-by {
+footer .theme-by, 
+footer .theme-by a {
   text-align: center;
-  margin: 10px 0 0;
+  margin: 6px 0 0;
+  color: #999;
 }
 
 @media only screen and (min-width: 768px) {
-  footer {
-    padding: 50px 0;
-  }
   footer .footer-links {
     font-size: 18px;
   }
