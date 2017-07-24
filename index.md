@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CEDESK
-subtitle: An open source collaboration tool for conceptual design with parametric system models.
+subtitle: An open source collaboration tool to speed up and parallelize conceptual design studies of engineering systems.
 use-site-title: true
 ---
 
@@ -10,17 +10,20 @@ use-site-title: true
 
 ## General Concept
 
-CEDESK is a tool to facilitate co-located collaborative model based conceptual design for space missions and complex systems. Multidisciplinary teams of engineers and scientists can use it for working together with a shared parametric model of any type of system.
+CEDESK is a tool to facilitate co-located collaborative model-based conceptual design for complex engineering systems. This type of tool is also known as data exchange for concurrent engineering studies.
+
+Multidisciplinary design teams can use CEDESK to facilitate their work together by building shared parametric models of their system of interest.
 
 ## Features
 
-* **conceptual design** - supports the team in iterative design by exchanging data between various disciplines and types of models, and guiding the * iterative process until a the design is consolidated.
-* **shared repository** - storage of system model including it’s history.
-* **concurrent work** - facilitate synchronization of simultaneous work.
-* **interactive analytics** (Design Structure Matrix, Multi-Attribute Tradespaces) to support the decision making.
+* Conceptual Design - CEDESK supports experts in iterative design by exchanging data between various disciplines and types of models, iterating the design process until a feasible design is consolidated.
+* Shared Repository - CEDESK stores interconnected parametric models and their historical evolution during design studies.
+* Concurrent work - CEDESK facilitates synchronization of simultaneous work.
+* Interactive Analytics - CEDESK supports decision making during design studies with analytic tools such as the Design Structure Matrix for interdependencies and Multi-Attribute Tradespace Exploration.
 
-Each discipline expert uses specific tools to elaborate on aspects or parts of the system. These domain specific models can be arbitrary complex and use different specialized tools to work with them, whereas the common system model contains those design parameters through which the parts are interconnected/interdependent.
-A goal in the development of the data exchange is not to duplicate functionality of engineering tools, but rather interconnect existing ones in a way to provide fast and easy-to-use integration.
+o define parts of their system of interest. A common system model connects those domain-specific tools through design parameters defining system interdependencies. 
+
+CEDESK does not duplicate the functionality of existing engineering tools, but rather interconnects existing tools to provide fast and easy-to-use integration among engineering disciplines.
 
 The software is developed at the [Concurrent Engineering Design Laboratory](http://crei.skoltech.ru/space/research/labs/concurrent-engineering-design-laboratory/), which is part of [Space Center](http://crei.skoltech.ru/space/) of [Skolkovo Institute of Science and Technology](https://www.skoltech.ru).
 
@@ -28,20 +31,27 @@ The software is developed at the [Concurrent Engineering Design Laboratory](http
 
 ## [Download/Install](setup)
 
+## Publications
+SECESA 2016 Conference Presentation: Knoll, Dominik, and Alessandro Golkar. 2016. “A Coordination Method for Concurrent Design and a Collaboration Tool for Parametric System Models.” 5-7 October 2016, Madrid, [DOI: 10.13140/RG.2.2.28582.83523](https://www.researchgate.net/publication/318641101_A_coordination_method_for_concurrent_design_and_a_collaboration_tool_for_parametric_system_models).
+
+CERA Journal Article: In review.
+
+[more](references)
+
 ## Team
 * Dominik Knoll - Main Author - PhD student - [web](http://crei.skoltech.ru/space/people/dominikknoll)
 * Nikolay Groshkov - Co-Author - Software Developer
-* Alessandro Golkar, PhD - Academic Advisor - Associate Professor - [web](http://faculty.skoltech.ru/people/alessandrogolkar)
+* Alessandro Golkar, PhD - Principal Investigator - Associate Professor - [web](http://faculty.skoltech.ru/people/alessandrogolkar)
 
 ## Contact
-Dominik Knoll, [email](mailto:d.knoll@skoltech.ru)<br/>
+CEDESK Team, [email](mailto:cedeskteam@gmail.com)<br/>
 Skolkovo Institute of Science and Technology, [web](https://www.skoltech.ru)<br/>
 3 Nobel Street, 143026, Moscow, Russia
 
 ## Source Code Repository
 The source code is available at [Github](https://github.com/cedesk/data-exchange).
 
-Development related documentation is given in the [developers guide](/developers-guide).
+Development related documentation is given in the [Developers Guide](/developers-guide).
 
 ## Issue Tracker
 Bugs and feature requests can be also filed at 
@@ -49,13 +59,15 @@ Bugs and feature requests can be also filed at
 
 ## Release History
 
-* 2017-07-22 - Version 1.29 -- first public release as Open Source Software
+* 2017-07-24 - Version 1.30 -- first public release as Open Source Software
 
-## MIT License
-Copyright 2017 Skoltech
+## License
+Copyright 2017 Skolkovo Institute of Science and Technology
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use CEDESK source code except in compliance with the License.
+You may obtain a copy of the License at
+[www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and limitations under the License.
