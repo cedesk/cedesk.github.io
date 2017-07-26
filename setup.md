@@ -8,15 +8,15 @@ title: Download and Install CEDESK
 
 | Version | Platform | Installer Package |
 |---|---|---|
-| 1.29 | Windows | [cedesk-1.29.exe](https://www.dropbox.com/s/nd7vnz0h9nlnm3b/cedesk-1.29_2017-07-22_23-26.exe?dl=0) |
-| 1.29 | MacOS | [cedesk-1.29.dmg](https://www.dropbox.com/s/5749jdill4dzdk1/cedesk-1.29_2017-07-22_23-11.dmg?dl=0) |
-| 1.29 | Linux | [cedesk-1.29.deb](https://www.dropbox.com/s/ywaxg3h079o40t4/cedesk-1.29_2017-07-22_23-08.deb?dl=0) |
+| 1.29.1 | Windows | [cedesk-1.29.exe](https://www.dropbox.com/s/c7xu2qwvmc5vb6g/cedesk-1.29.1_2017-07-26_16-40.exe?dl=0) |
+| 1.29.1 | MacOS | [cedesk-1.29.dmg](https://www.dropbox.com/s/b9p25r7przjzo7x/cedesk-1.29.1_2017-07-26_22-51.dmg?dl=0) |
+| 1.29.1 | Linux | [cedesk-1.29.deb](https://www.dropbox.com/s/700j6kb941w6tlt/cedesk-1.29.1_2017-07-26_22-52.deb?dl=0) |
 
 #### Source Code
 
 | Version | Platform | Source Code |
 |---|---|---|
-| 1.29 | Any | [archive-v1.29.zip](https://github.com/cedesk/data-exchange/archive/v1.29.zip) |
+| 1.29.1| Any | [archive-v1.29.1.zip](https://github.com/cedesk/data-exchange/archive/v1.29.1.zip) |
 
 
 ## Installation

@@ -39,7 +39,7 @@ CERA Journal Article: In review.
 [more](references)
 
 ## Team
-* Dominik Knoll - Main Author - PhD student - [web](http://crei.skoltech.ru/space/people/dominikknoll)
+* Dominik Knoll - Lead Author - PhD student - [web](http://crei.skoltech.ru/space/people/dominikknoll)
 * Nikolay Groshkov - Co-Author - Software Developer
 * Alessandro Golkar, PhD - Principal Investigator - Associate Professor - [web](http://faculty.skoltech.ru/people/alessandrogolkar)
 
@@ -59,6 +59,7 @@ Bugs and feature requests can be also filed at
 
 ## Release History
 
+* 2017-07-26 - Version 1.29.1 -- fixed installer builds, logging and shutdown errors
 * 2017-07-24 - Version 1.29 -- first public release as Open Source Software
 
 ## License
