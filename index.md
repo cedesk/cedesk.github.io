@@ -21,7 +21,7 @@ Multidisciplinary design teams can use CEDESK to facilitate their work together 
 * Concurrent work - CEDESK facilitates synchronization of simultaneous work.
 * Interactive Analytics - CEDESK supports decision making during design studies with analytic tools such as the Design Structure Matrix for interdependencies and Multi-Attribute Tradespace Exploration.
 
-o define parts of their system of interest. A common system model connects those domain-specific tools through design parameters defining system interdependencies. 
+Each discipline expert uses disciplinary tools to define parts of their system of interest. A common system model connects those domain-specific tools through design parameters defining system interdependencies. 
 
 CEDESK does not duplicate the functionality of existing engineering tools, but rather interconnects existing tools to provide fast and easy-to-use integration among engineering disciplines.
 
