@@ -15,6 +15,7 @@ navbar-links:
   Tool:
     - Screenshots: "screenshots"
     - Download/Install: "setup"
+    - Comparison: "comparison"
   Internals: 
     - Overview: "internals"
     - Developers Guide: "developers-guide"
