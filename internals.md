@@ -33,10 +33,10 @@ subtitle: The internal structure of the software.
 * jUnit, 4.12, EPL 1.0
 * Mockito-Core, 2.8.47, MIT license
 * mysql-connector-java, 6.0.6, GPL 2.0
-* narayana-jta, 5.6.2, CC0, LGPL 2.1
 * slf4j-log4j12, 1.7.21, MIT license
 * spring-boot-autoconfigure, 1.5.4, Apache 2.0
 * spring-context, 4.3.9, Apache 2.0
+* spring-data-envers, 1.1.6, Apache 2.0
 * spring-data-jpa, 1.11.4, Apache 2.0
 
 ## Source Code Repository
