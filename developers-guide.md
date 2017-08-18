@@ -48,10 +48,6 @@ The source code is organized following the maven standard:
 
 Base Package: `ru.skoltech.cedl.dataexchange`
 
-  * `.control` classes for custom GUI controls (widgets)
-
-  * `.controller` MVC controller classes for the GUI
-
   * `.db`  classes for database handling (schema versioning)
   
   * `.entity`  classes which define domain objects, principally stored the database
@@ -74,7 +70,7 @@ Base Package: `ru.skoltech.cedl.dataexchange`
 
   * `.users`  classes representing the application users
 
-  * `.view`  MVC view classes for the GUI
+  * `.ui`  classes related to UI (controllers, controls, paths to _*.fxml_ views)
 
 ## Build System ##
 
