@@ -57,7 +57,7 @@ Development related documentation is given in the [Developers Guide](/developers
 
 ## Issue Tracker
 Bugs and feature requests can be also filed at 
-[Github](hhttps://github.com/cedesk/data-exchange/issues).
+[Github](https://github.com/cedesk/data-exchange/issues).
 
 ## Release History
 
