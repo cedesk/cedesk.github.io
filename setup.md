@@ -10,6 +10,7 @@ title: Download and Install CEDESK
 |---|---|---|
 | 1.30 | Windows | [cedesk-1.30.exe](https://goo.gl/MJJ1v9) |
 | 1.30 | MacOs | [cedesk-1.30.dmg](https://goo.gl/AFzmH8) |
+| 1.30 | Linux | [cedesk-1.30.deb](https://goo.gl/TSFNRe) |
 |---|---|---|
 | 1.29.1 | Windows | [cedesk-1.29.exe](https://goo.gl/o87FgL) |
 | 1.29.1 | MacOS | [cedesk-1.29.dmg](https://goo.gl/xm2EsT) |
