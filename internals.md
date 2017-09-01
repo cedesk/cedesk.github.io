@@ -22,6 +22,7 @@ subtitle: The internal structure of the software.
 * apache-poi-ooxml, 3.16, Apache 2.0
 * commons-beanutils, 1.9.3, Apache 2.0
 * controlsfx, 8.40.12, EPL 1.0
+* hamcrest-library, 1.3, BSD 2-clause
 * hibernate-core, 5.2.10, LGPL 2.1
 * hibernate-envers, 5.2.10, LGPL 2.1
 * hibernate-jpa, 1.0.0, EDL 1.0, EPL 1.0
@@ -35,6 +36,7 @@ subtitle: The internal structure of the software.
 * mysql-connector-java, 6.0.6, GPL 2.0
 * slf4j-log4j12, 1.7.21, MIT license
 * spring-boot-autoconfigure, 1.5.4, Apache 2.0
+* spring-aspects, 4.3.9, Apache 2.0
 * spring-context, 4.3.9, Apache 2.0
 * spring-data-envers, 1.1.6, Apache 2.0
 * spring-data-jpa, 1.11.4, Apache 2.0
