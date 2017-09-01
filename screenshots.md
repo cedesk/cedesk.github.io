@@ -10,4 +10,9 @@ subtitle: See CEDESK in action!
 
 ## Change Propagation Monitoring (N-Square Chart)
 
-![Get it](/img/demosat-new-n-square-highlighting_orig.png)
+![Get it](/img/demoSAT_N-square-and-change-propagation.png)
+
+## Tradespace Exploration
+
+![Get it](/img/demoSAT-tradespace-explorer.png)
+

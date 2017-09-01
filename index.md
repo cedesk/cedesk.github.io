@@ -57,10 +57,11 @@ Development related documentation is given in the [Developers Guide](/developers
 
 ## Issue Tracker
 Bugs and feature requests can be also filed at 
-[Github](hhttps://github.com/cedesk/data-exchange/issues).
+[Github](https://github.com/cedesk/data-exchange/issues).
 
 ## Release History
 
+* 2017-08-21 - Version 1.30 -- refactored database backend, added tradespace definition and visualization, added work period analysis and parameter change history analysis
 * 2017-07-26 - Version 1.29.1 -- fixed installer builds, logging and shutdown errors
 * 2017-07-24 - Version 1.29 -- first public release as Open Source Software
 
