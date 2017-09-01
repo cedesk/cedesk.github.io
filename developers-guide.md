@@ -16,11 +16,17 @@ The `master` branch keeps the stable, released versions.
 
 There is a `development` branch, where some global improvements were done. Feature development is done in branches. Mature features are merged back to the `development` branch.
 
-### Releases ###
+### Releasing ###
 
-For releases first the `development` branch is merged on to the main branch, and the new version number is modified in the build file (`pom.xml`). Releases are also tagged on the main branch with the version number in the format `v##.##`, e.g. `v1.25`.
+Making a release is made in several steps.
 
-All this is then pushed together to the central repository.
+1) First eventually added/remove OSS libraries are reflected in the file `about.html`.
+
+2) The `development` branch is merged on to the `master` branch, and the new version number is modified in the build file (`pom.xml`). If the data entities have changed the schema version needs to be modifed as well (also in the `pom.xml`).
+
+3) Set a tag on the last commit on the master branch with the version number in the format `v##.##`, e.g. `v1.25`.
+
+4) Push commits and tags to the central repository.
 
 ### Source Code Structure ###
 
