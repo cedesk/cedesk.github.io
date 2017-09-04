@@ -8,6 +8,8 @@ title: Download and Install CEDESK
 
 | Version | Platform | Installer Package |
 |---|---|---|
+| 1.31.2 | Windows | [cedesk-1.31.2.exe](https://goo.gl/du38JW) |
+|---|---|---|
 | 1.30 | Windows | [cedesk-1.30.exe](https://goo.gl/MJJ1v9) |
 | 1.30 | MacOs | [cedesk-1.30.dmg](https://goo.gl/AFzmH8) |
 | 1.30 | Linux | [cedesk-1.30.deb](https://goo.gl/TSFNRe) |
@@ -20,6 +22,7 @@ title: Download and Install CEDESK
 
 | Version | Platform | Source Code |
 |---|---|---|
+| 1.31.2| Any | [archive-v1.31.2.zip](https://goo.gl/GaNsYP) |
 | 1.30| Any | [archive-v1.30.zip](https://goo.gl/xAADs7) |
 | 1.29.1| Any | [archive-v1.29.1.zip](https://goo.gl/tkSNRz) |
 
