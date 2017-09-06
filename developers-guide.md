@@ -80,21 +80,28 @@ Base Package: `ru.skoltech.cedl.dataexchange`
 
 ## Build System ##
 
-For managing the dependencies of the software on libraries and defining the build process, the project uses Maven 3, see `pom.xml`.
+For managing the dependencies of the software on third-party libraries and defining the build process, the project uses Maven 3, see `pom.xml`.
 
 ### Client installer packages ###
 
 Packaging native installers (win: _.exe_, mac: _.dmg_, linux: _.deb_),
+using a [javafx-maven-plugin](http://javafx-maven-plugin.github.io/), which is a wrapper of the [JavaFX packaging utility](http://docs.oracle.com/javafx/2/deployment/self-contained-packaging.htm).
 
-Using a maven plugin for JavaFX applications [http://javafx-maven-plugin.github.io/](http://javafx-maven-plugin.github.io/)
+The build phase `package` produces the installer for the platform on which the build is running.
+The build phase `deploy` copies the package to an output directory, depending on the environment:
+
+* by default the directory is `${user.home}/development/cedesk-builds`
+
+* if the environment variable `buildserver` is set, then directory is `c:/data/cedesk-builds`
 
 ***Requirements***
 
-for Windows: Inno Setup 5 or later from [http://www.jrsoftware.org](http://www.jrsoftware.org)
+* for Windows: Inno Setup 5 or later from [http://www.jrsoftware.org](http://www.jrsoftware.org)
 
-for MacOS: Xcode
+* for MacOS: Xcode
 
-for Linux: ?
+* for Linux: RPMBuild or Debian packaging tools
+
 
 ## Automated Tests ##
 
