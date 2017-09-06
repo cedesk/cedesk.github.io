@@ -14,6 +14,8 @@ subtitle: The internal structure of the software.
 
 ## [Developers Guide](/developers-guide)
 
+## [Code Structure](/code-structure)
+
 ## Used OSS Libraries
 
 * apache-commons-lang3, 3.5, Apache 2.0
