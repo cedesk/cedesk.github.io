@@ -34,7 +34,7 @@ The software is developed at the [Concurrent Engineering Design Laboratory](http
 ## Publications
 SECESA 2016 Conference Presentation: Knoll, Dominik, and Alessandro Golkar. 2016. _“A Coordination Method for Concurrent Design and a Collaboration Tool for Parametric System Models.”_ 5-7 October 2016, Madrid, [DOI: 10.13140/RG.2.2.28582.83523](https://www.researchgate.net/publication/318641101_A_coordination_method_for_concurrent_design_and_a_collaboration_tool_for_parametric_system_models).
 
-CERA Journal Article: In review.
+CERA Journal Article: In publishing.
 
 [more](references)
 
@@ -53,7 +53,7 @@ Skolkovo Institute of Science and Technology, [web](https://www.skoltech.ru)<br/
 ## Source Code Repository
 The source code is available at [Github](https://github.com/cedesk/data-exchange).
 
-Development related documentation is given in the [Developers Guide](/developers-guide).
+Development related documentation is given in the [Internals](/internals).
 
 ## Issue Tracker
 Bugs and feature requests can be also filed at 

@@ -19,6 +19,7 @@ navbar-links:
   Internals: 
     - Overview: "internals"
     - Developers Guide: "developers-guide"
+    - Code Structure: "code-structure"
   References: "references"
 
 #  News: "news"
