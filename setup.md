@@ -14,8 +14,10 @@ title: Download and Install CEDESK
 | MacOS X | [cedesk-1.31.2.dmg](https://goo.gl/6nzvNi) |
 | Debian Linux | [cedesk-1.31.2.deb](https://goo.gl/HpST39) |
 
-### Source Code Repository
+### Build from Source Code
 Fork on Github [github.com/cedesk/data-exchange](https://github.com/cedesk/data-exchange).
+
+See [Developer's Guide](/developers-guide) for build instructions.
 
 ## Installation
 

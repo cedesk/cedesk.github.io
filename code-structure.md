@@ -4,6 +4,56 @@ title: Code Structure
 subtitle: The organization of the source code.
 ---
 
+## Source Code Structure
+
+Application resides in sub directory `\client`.
+
+The source code is organized following the maven standard:
+
+`\src`
+
+  * `\main` contains the source code files
+
+    * `\deploy` contains files for the packaging (icons)
+
+    * `\java` contains the java source code, organized in packages
+
+    * `\resources` contains non-java files, which are required at runtime (images, configuration files)
+
+    * `\sql` contains sql files for the setup of the database backend
+
+  * `\test` contains the java source code files used for testing only
+
+`\target` contains the results of builds
+
+### Java Packages ###
+
+Base Package: `ru.skoltech.cedl.dataexchange`
+
+  * `.db`  classes for database handling (schema versioning)
+  
+  * `.entity`  classes which define domain objects, principally stored the database
+
+  * `.external` classes for handling external models, such as excel files
+
+  * `.file`  classes for listening to file changes on the filesystem
+  
+  * `.init`  classes which define operations, essential for application launching
+
+  * `.logging` classes for action logging in the backend
+
+  * `.repository` classes for handling the storage backend (Data Access Objects)
+  
+  * `.service` classes for handling service layer operations
+
+  * `.structure` classes which define the Product Breakdown Structure of a System Model
+
+  * `.units`  classes representing the units of measures
+
+  * `.users`  classes representing the application users
+
+  * `.ui`  classes related to UI (controllers, controls, paths to _*.fxml_ views)
+
 ## Graphical User Interface
 
 The application's GUI is based on JavaFX framework, and additional libraries on top. Following the JavaFX framework, the application's entry point is the class **ClientApplication** (terms in bold mean classnames).
@@ -57,7 +107,7 @@ The default database credentials are username `cedesk`, password `cedesk`, but c
 
 **ParameterModel** - class to represent model parameters. Members: `nature`, `unit`, `value`, `value source`, `exported`; optional: `value link` (another parameter model), `export reference` (a target within an external model).
 
-## Services ##
+## Services
 
 ![3-services.png](/img/3-services.png)
 
@@ -109,7 +159,7 @@ This functionality is uses services offered by the standard Java API to receive 
 
 Parts of the code were recycled from an internet resource.
 
-### Infrastructure for Logging ###
+## Infrastructure for Logging
 
 **StatusLogger** - a class which outputs information in the statusbar of the user interface, limited to contain the last 10 entries.
 
