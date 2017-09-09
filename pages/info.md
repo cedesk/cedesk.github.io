@@ -1,61 +1,28 @@
 ---
 layout: page
 title: "About"
-subheadline: "Why another Jekyll Theme?"
-teaser: "Since years I am programming and designing websites. I love to work with open source tools and learn via code from others. This time I want to try to give something back..."
+subheadline: ""
+teaser: "An open source collaboration tool to speed up and parallelize conceptual design studies of engineering systems."
 permalink: "/info/"
 header:
-    image_fullwidth: "header_drop.jpg"
+    image_fullwidth: "header_unsplash_cedl-04.jpg"
 ---
-...and learn at the same time.
 
-*Feeling Responsive* is my first theme which I let into the world. It's built on work and knowledge of others. While I am still designing it, you read about whats behind this theme in the – *hopefully* – near future.
+## General Concept
 
+CEDESK is a tool to facilitate co-located collaborative model-based conceptual design for complex engineering systems. This type of tool is also known as data exchange for concurrent engineering studies.
+
+Multidisciplinary design teams can use CEDESK to facilitate their work together by building shared parametric models of their system of interest.
 
 ## Features
 
-* [Responsive Gallery][8], [Videos][9], [Grid][10], [Typography][11],...
-* 100% GitHub Pages friendly
-* Easy editable navigation, footer and social media links
-* Language Ready – just translate one file.
-* Lots of possibilities to customize it to your needs
-* Lots of different headers
-* Various post formats to let your content shine
-* Uses Jekyll 3.0
-* Multiple possibilities to use images in different ways
-* Fine typography
-* Play Video and Audio with [Mediaelement.js][12]
+* Conceptual Design - CEDESK supports experts in iterative design by exchanging data between various disciplines and types of models, iterating the design process until a feasible design is consolidated.
+* Shared Repository - CEDESK stores interconnected parametric models and their historical evolution during design studies.
+* Concurrent work - CEDESK facilitates synchronization of simultaneous work.
+* Interactive Analytics - CEDESK supports decision making during design studies with analytic tools such as the Design Structure Matrix for interdependencies and Multi-Attribute Tradespace Exploration.
 
+Each discipline expert uses disciplinary tools to define parts of their system of interest. A common system model connects those domain-specific tools through design parameters defining system interdependencies. 
 
+CEDESK does not duplicate the functionality of existing engineering tools, but rather interconnects existing tools to provide fast and easy-to-use integration among engineering disciplines.
 
-## I got inspired by...
-
-[Michael Rose][1] and his fabulous [themes for jekyll][2]. Authors of [A List Apart][4] and [Smashing Magazine][5] since 2002. [GitHub][6] and how they built such a habitat for cooperation worldwide. [Automattic][3] and how they built a fantastic community around WordPress. And many, many more...
-
-Please make *Feeling Responsive* yours and if you like it, please link back to my homebase <a href="http://phlow.de/">Phlow</a>. That would be awesome.
-
-#### Since then, fork it!
-
-Yours sincerelly, [Moritz »mo.« Sauer][7]
-
-
- [1]: http://mademistakes.com/about/
- [2]: http://mademistakes.com/work/jekyll-themes/
- [3]: http://automattic.com/
- [4]: http://alistapart.com/
- [5]: http://www.smashingmagazine.com/
- [6]: https://github.com/
- [7]: http://sauer.io
- [8]: {{ site.url }}/design/gallery/
- [9]: {{ site.url }}/design/video/
- [10]: {{ site.url }}/design/grid/
- [11]: {{ site.url }}/design/typography/
- [12]: {{ site.url }}/design/mediaelement_js/
- [13]: #
- [14]: #
- [15]: #
- [16]: #
- [17]: #
- [18]: #
- [19]: #
- [20]: #
+The software is developed at the [Concurrent Engineering Design Laboratory](http://crei.skoltech.ru/space/research/labs/concurrent-engineering-design-laboratory/), which is part of [Space Center](http://crei.skoltech.ru/space/) of [Skolkovo Institute of Science and Technology](https://www.skoltech.ru).

@@ -1,52 +1,50 @@
 ---
-#
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
-#
 layout: frontpage
 header:
   image_fullwidth: header_unsplash_cedl-04.jpg
 widget1:
-  title: "Blog & Portfolio"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  title: "General Concept"
+  url: '/info/'
+  image: ''
+  text: 'CEDESK is a tool to facilitate co-located collaborative model-based conceptual design for complex engineering systems. This type of tool is also known as data exchange for concurrent engineering studies.<br/><br/>Multidisciplinary design teams can use CEDESK to facilitate their work together by building shared parametric models of their system of interest.'
 widget2:
-  title: "Why use this theme?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  title: "Features"
+  url: '/tool/'
+  text: '<ul><li>Conceptual Design</li>
+             <li>Shared Repository</li>
+             <li>Concurrent work</li>
+             <li>Interactive Analytics</li>
+         </ul>
+         CEDESK does not duplicate the functionality of existing engineering tools, but rather interconnects existing tools to provide fast and easy-to-use integration among engineering disciplines.'
+  image: ''
 widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
-#
-# Use the call for action to show a button on the frontpage
-#
-# To make internal links, just use a permalink like this
-# url: /getting-started/
-#
-# To style the button in different colors, use no value
-# to use the main color or success, alert or secondary.
-# To change colors see sass/_01_settings_colors.scss
-#
+  title: "Use &amp; Contribute"
+  url: '/setup/'
+  image: ''
+  text: ''
+
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
+  url: '/development/'
+  text: Get started and contribute to the development ›
+  style: secondary
 permalink: /index.html
-#
-# This is a nasty hack to make the navigation highlight
-# this page as active in the topbar navigation
-#
 homepage: true
 ---
 
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
+## Release History
+
+* 2017-09-04 - Version 1.31.2 -- maintainance release, bug fixing
+* 2017-08-21 - Version 1.30 -- refactored database backend, added tradespace definition and visualization, added work period analysis and parameter change history analysis
+* 2017-07-26 - Version 1.29.1 -- fixed installer builds, logging and shutdown errors
+* 2017-07-24 - Version 1.29 -- first public release as Open Source Software
+
+## License
+Copyright 2017 Skolkovo Institute of Science and Technology
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use CEDESK source code except in compliance with the License.
+You may obtain a copy of the License at
+[www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and limitations under the License.

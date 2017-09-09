@@ -109,9 +109,9 @@ defaults:
       type: 'pages'
     values:
       show_meta: false 	# Hide metadata for all pages
-      sidebar: right   		# Possible values › left, right › by default there will be no sidebar
+      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author: djknoll     # Default author for pages
   -
     scope:
       path: ''
@@ -120,7 +120,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
+      author: djknoll     # Default author for posts
 
 
 

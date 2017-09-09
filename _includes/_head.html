@@ -55,6 +55,7 @@
 	<link rel="canonical" href="{{ url }}{{ page.url }}">
 
 
+	{% if site.socialmedia.facebook %}
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="{{ title }}">
 	<meta property="og:description" content="{{ description }}">
@@ -63,7 +64,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="{{ site.title }}">
 	{% if page.image.title %}<meta property="og:image" content="{{ site.urlimg }}{{ page.image.title }}">{% endif %}
-	{% if site.socialmedia.facebook %}<meta property="article:author" content="https://www.facebook.com/{{ site.socialmedia.facebook }}">{% endif %}
+	<meta property="article:author" content="https://www.facebook.com/{{ site.socialmedia.facebook }}">{% endif %}
 
 
 	{% if site.socialmedia.twitter %}

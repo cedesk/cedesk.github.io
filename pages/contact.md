@@ -2,11 +2,28 @@
 layout: page
 title: "Contact"
 meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
+subheadline:
+teaser: "Get in touch with CEDESK team?"
 permalink: "/contact/"
+header:
+   image_fullwidth: "header_unsplash_1.jpg"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
 
+## Team
 
- [1]: http://www.wufoo.com/
+[email](mailto:cedeskteam@gmail.com)
+
+* Dominik Knoll - Lead Author - PhD student - [web](http://crei.skoltech.ru/space/people/dominikknoll)
+* Nikolay Groshkov - Co-Author - Software Developer
+* Alessandro Golkar, PhD - Principal Investigator - Associate Professor - [web](http://faculty.skoltech.ru/people/alessandrogolkar)
+
+## [Laboratory](/cedl)
+
+## Address
+
+[web](https://www.skoltech.ru)
+
+Space Center <br/>
+Skolkovo Institute of Science and Technology<br/>
+3 Nobel Street, 143026, Moscow, Russia
+
