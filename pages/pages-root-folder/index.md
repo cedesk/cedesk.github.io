@@ -1,7 +1,7 @@
 ---
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_cedl-04.jpg
+  image_fullwidth: header_unsplash_cedl-02.jpg
 widget1:
   title: "General Concept"
   url: '/info/'
