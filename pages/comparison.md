@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 subheadline:  "Comparison of tools for conceptual design in aerospace"
 title:  "Tool Comparison"
 teaser: 
@@ -9,4 +9,4 @@ header: no
 permalink: "/comparison/"
 ---
 
-<iframe src="{{ 'tool-comparison.html' | relative_url }}" width="100%" height="900px"/>
+{% include_absolute /documents/tool-comparison.html %}

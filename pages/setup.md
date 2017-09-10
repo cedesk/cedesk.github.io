@@ -28,7 +28,7 @@ See [Developer's Guide](/developers-guide) for build instructions.
 
 ## Installation
 
-Complete instructions for setting up CEDESK on a client are found [here](/docs/CEDESK-Setup.pdf).
+Complete instructions for setting up CEDESK on a client are found [here](/documents/CEDESK-Setup.pdf).
 
 ## Upgrade
 
