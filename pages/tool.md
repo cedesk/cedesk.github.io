@@ -9,12 +9,12 @@ header: no
 
 ## The Modelling User Interface
 
-![Get it](/images/demoSAT-dknoll-Orbit-OrbitSMA.png)
+![Get it]({{ site.urlimg }}/demoSAT-dknoll-Orbit-OrbitSMA.png)
 
 ## Change Propagation Monitoring (N-Square Chart)
 
-![Get it](/images/demoSAT_N-square-and-change-propagation.png)
+![Get it]({{ site.urlimg }}/demoSAT_N-square-and-change-propagation.png)
 
 ## Tradespace Exploration
 
-![Get it](/images/demoSAT-tradespace-explorer.png)
+![Get it]({{ site.urlimg }}/demoSAT-tradespace-explorer.png)

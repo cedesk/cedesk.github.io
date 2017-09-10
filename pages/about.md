@@ -3,7 +3,7 @@ layout: page
 title: "About"
 subheadline: ""
 teaser: "An open source collaboration tool to speed up and parallelize conceptual design studies of engineering systems."
-permalink: "/info/"
+permalink: "/about/"
 header:
     image_fullwidth: "header_unsplash_cedl-04.jpg"
 ---

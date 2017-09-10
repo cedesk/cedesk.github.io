@@ -6,7 +6,10 @@ widget1:
   title: "General Concept"
   url: '/info/'
   image: ''
-  text: 'CEDESK is a tool to facilitate co-located collaborative model-based conceptual design for complex engineering systems. This type of tool is also known as data exchange for concurrent engineering studies.<br/><br/>Multidisciplinary design teams can use CEDESK to facilitate their work together by building shared parametric models of their system of interest.'
+  text: 'CEDESK is a tool to facilitate co-located collaborative model-based conceptual design for complex engineering 
+  systems. This type of tool is also known as data exchange for concurrent engineering studies.<br/><br/>
+  Multidisciplinary design teams can use CEDESK to facilitate their work together by building shared parametric models
+  of their system of interest.'
 widget2:
   title: "Features"
   url: '/tool/'
@@ -15,14 +18,20 @@ widget2:
              <li>Concurrent work</li>
              <li>Interactive Analytics</li>
          </ul>
-         CEDESK does not duplicate the functionality of existing engineering tools, but rather interconnects existing tools to provide fast and easy-to-use integration among engineering disciplines.'
+         CEDESK does not duplicate the functionality of existing engineering tools, but rather interconnects existing 
+         tools to provide fast and easy-to-use integration among engineering disciplines.
+         See <a href="/comparison/">tool comparison</a>.'
   image: ''
 widget3:
   title: "Use &amp; Contribute"
   url: '/setup/'
   image: ''
-  text: ''
-
+  text: 'Installation packages of the tool are available for Windows, MacOS and Linux <a href="/setup/">here</a>.
+            <br/><br/>
+            Check out the source code on <a href="https://github.com/cedesk/data-exchange">GitHub</a> and the
+            <a href="/developers-guide/">developers guide</a>, report
+            <a href="https://github.com/cedesk/data-exchange/issues">issues</a> or adopt it your needs and join
+            the developers community.'
 callforaction:
   url: '/development/'
   text: Get started and contribute to the development ›

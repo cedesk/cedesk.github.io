@@ -40,6 +40,7 @@ improve_content: https://github.com/cedesk/cedesk.github.io
 #
 urlimg: 'https://cedesk.github.io/images/'
 
+urlabout: '/about/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"

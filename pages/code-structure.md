@@ -91,8 +91,8 @@ The default database credentials are username `cedesk`, password `cedesk`, but c
 
 ## Data Model
 
-![1-model.png](/images/1-model.png)
-![2-project.png](/images/2-project.png)
+![1-model.png]({{ site.urlimg }}/1-model.png)
+![2-project.png]({{ site.urlimg }}/2-project.png)
 
 **Project** - a singleton class, handling a lot of business logics. Members: `local study`, `remote study`, `user management`, `unit management`;
 
@@ -114,7 +114,7 @@ The default database credentials are username `cedesk`, password `cedesk`, but c
 
 ## Services
 
-![3-services.png](/images/3-services.png)
+![3-services.png]({{ site.urlimg }}/3-services.png)
 
 Application middleware backbone predominantly based on Spring application context, which is container for features of 3 types:
 
