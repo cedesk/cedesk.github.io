@@ -9,4 +9,4 @@ header: no
 permalink: "/comparison/"
 ---
 
-{% include_absolute /documents/tool-comparison.html %}
+{% include_relative tool-comparison.html %}
