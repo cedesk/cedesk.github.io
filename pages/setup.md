@@ -13,13 +13,11 @@ permalink: "/setup/"
 
 ### Installer Packages
 
-| Platform | Installer Package |
-|---|---|
-| version 1.31.2, released 2017-09-04
-|---|---|
-| Windows | [cedesk-1.31.2.exe](https://goo.gl/du38JW) |
-| MacOS X | [cedesk-1.31.2.dmg](https://goo.gl/6nzvNi) |
-| Debian Linux | [cedesk-1.31.2.deb](https://goo.gl/HpST39) |
+<ul>
+{% for package_item in site.data.packages %}
+    <li>{{ package_item.platform }}, version {{ package_item.version }}, <a href="{{ package_item.url }}">{{ package_item.name }}</a> </li>
+{% endfor %}
+</ul>
 
 ### Build from Source Code
 Fork on Github [github.com/cedesk/data-exchange](https://github.com/cedesk/data-exchange).

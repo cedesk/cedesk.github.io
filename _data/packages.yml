@@ -1,0 +1,21 @@
+#| version 1.31.2, released 2017-09-04
+#|---|---|
+#| Windows | [cedesk-1.31.2.exe](https://goo.gl/du38JW) |
+#| MacOS X | [cedesk-1.31.2.dmg](https://goo.gl/6nzvNi) |
+#| Debian Linux | [cedesk-1.31.2.deb](https://goo.gl/HpST39) |
+
+
+- name: "cedesk-1.31.2.exe"
+  url: https://goo.gl/du38JW
+  platform: "Windows"
+  version: '1.31.2'
+
+- name: "cedesk-1.31.2.dmg"
+  url: https://goo.gl/6nzvNi
+  platform: "MacOS X"
+  version: '1.31.2'
+
+- name: "cedesk-1.31.2.deb"
+  url: https://goo.gl/HpST39
+  platform: "Debian Linux"
+  version: '1.31.2'
