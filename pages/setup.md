@@ -13,11 +13,15 @@ permalink: "/setup/"
 
 ### Installer Packages
 
+{% for package_version in site.data.releases %}
+<p>version <code class="highlighter-rouge">{{ package_version.version_name }}</code>, released <code class="highlighter-rouge">{{ package_version.release_date }}</code></p>
 <ul>
-{% for package_item in site.data.packages %}
-    <li>{{ package_item.platform }}, version {{ package_item.version }}, <a href="{{ package_item.url }}">{{ package_item.name }}</a> </li>
-{% endfor %}
+    {% for item in package_version.files %}
+    <li>{{ item.platform }},  <a href="{{ item.url }}">{{ item.name }}</a> </li>
+    {% endfor %}
 </ul>
+{% endfor %}
+
 
 ### Build from Source Code
 Fork on Github [github.com/cedesk/data-exchange](https://github.com/cedesk/data-exchange).
