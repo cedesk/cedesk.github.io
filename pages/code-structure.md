@@ -154,7 +154,7 @@ This service based on the Spring scheduling in the application context performs 
 
 **Synchronization of two applications**
 
-![4-synch.png](/img/4-synch.png)
+![4-synch.png]({{ site.urlimg }}/4-synch.png)
 
 **ExternalModelFileWatcher, SimpleDirectoryWatchService, DirectoryWatchService**
 
