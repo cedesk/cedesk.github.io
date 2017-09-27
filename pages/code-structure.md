@@ -170,7 +170,7 @@ Parts of the code were recycled from an internet resource.
 
 **ActionLogger** - a class which logs to the database the principal user actions on the client (load/save project, add/modify/remove model node, add/modify/remove parameter).
 
-Log4j library is used for logging of information for debugging and error tracing, it's configured to write a logfile into the `application.log` in a subdirectory of the user's home directory called `.cedesk`.
+Log4j library is used for logging of information for debugging and error tracing, it's configured to write a logfile into a subdirectory of the user's home directory called `.cedesk`. The application creates a new logfile on each application start using the date and time as part of the filename `cedesk-app.<date+time>.log`. To avoid consuming too much disk space, the number of logfiles will not exceed 10.
 
 ### UpdateChecker ###
 
