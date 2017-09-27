@@ -112,16 +112,42 @@ The default database credentials are username `cedesk`, password `cedesk`, but c
 
 **ParameterModel** - class to represent model parameters. Members: `nature`, `unit`, `value`, `value source`, `exported`; optional: `value link` (another parameter model), `export reference` (a target within an external model).
 
-## Services
+## Application context
 
-![3-services.png]({{ site.urlimg }}/3-services.png)
+Application middleware backbone is predominantly constructed by Spring beans which are configured in XML-based application contexts. All beans are distributed between 5 application context (i.e _context-*.xml_ files).
 
-Application middleware backbone predominantly based on Spring application context, which is container for features of 3 types:
+![5-context.png]({{ site.urlimg }}/5-context.png)
 
-1. Services of various kinds for handling common application operations;
-2. Data Access Objects (DAO) layer which provides low-level database operations. It is based on Spring Data framework and uses container-based JPA EntityManager, defined also via Spring application context;
-3. JavaFX GUI Controllers. Their dependencies are also defined in the application context;
-4. Additional model features, briefly described bellow.
+Each XML context file (except _context-base.xml_) pretend to encapsulate specific application layer, so establish a dependency graph of layers where any top level-context can have a dependency on that of low-level and not vice versa.
+
+1. **context-services.xml**
+
+	Context, which contains lowest-level infrastructure beans:
+    - JPA persistence with container-based EntityManager configuration;
+    - DAO beans: Spring Data repositories and all related configuration;
+    - Service stateless singleton beans.
+    
+2. **context-model.xml**
+
+    Domain-oriented stateful singleton beans. It contains the beans of project, various handlers and builders, action and status loggers as well as _ThreadPoolTaskScheduler_.
+
+3. **context-controller.xml**
+
+    JavaFX controller beans. Each UI view, which is created via _ViewBuilder_ obtained by _GuiService.createViewBuilder(...)_ method initialize its controller with dependency injection provided by Spring context. Controllers can be singletons (for permanent application views) or prototype (for temporal controls).
+
+4. **context-base.xml**
+
+    A special context which extract some beans from that of low-level and it necessary to start a basic application without configuring persistence.
+
+5. **context-test.xml**
+
+    Context for test purposes. The main reason for it is having a possibility to override existing application beans and mock their behavior.
+
+That is the idea, if some of the beans do not follow the rules described above, they will be rewritten later on.
+
+Below is description of additional model features, also defined via application context. 
+
+## Some Application Features
 
 **ApplicationSettings**
 
