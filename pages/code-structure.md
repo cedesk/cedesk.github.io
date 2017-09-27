@@ -174,7 +174,7 @@ Log4j library is used for logging of information for debugging and error tracing
 
 ### UpdateChecker ###
 
-This class is used to check the distribution server, whether there is a newer version of the application available (distinguishing packages _.exe_, _.deb_, _.dmg_ for the various OS).
+This class is used to check the distribution server (currently non-public! [srv-cedl-01.skoltech.ru/cedesk/](http://srv-cedl-01.skoltech.ru/cedesk/) ), whether there is a newer version of the application available (distinguishing packages _.exe_, _.deb_, _.dmg_ for the various OS).
 
 ## Nota Bene
 
