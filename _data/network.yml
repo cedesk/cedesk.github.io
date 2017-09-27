@@ -1,0 +1,6 @@
+- menu_name: "Network"
+
+- name: "Skoltech"
+  url: "http://skoltech.ru/"
+  class: "network-entypo"
+  title: "Skolkovo Institute of Science and Technology"

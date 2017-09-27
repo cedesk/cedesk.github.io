@@ -1,0 +1,41 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: About
+  url: "/about/"
+  side: left
+
+- title: Tool 
+  url: "/tool/"
+  side: left
+  dropdown:
+  - title: "Download/Install"
+    url: "/setup/"
+  - title: "Comparison"
+    url: "/comparison/"
+
+- title: "Development"
+  url: "/development/"
+  side: left
+  dropdown:
+  - title: "Developers Guide"
+    url: "/developers-guide/"
+  - title: "Code Structure"
+    url: "/code-structure/"
+
+- title: "References"
+  url: "/references/"
+  side: left
+
+
+#- title: Blog
+#  url: "/blog/"
+#  side: right
+#  dropdown:
+#  - title: "Blog Archive"
+#    url: "/blog/archive/"
+
+- title: "Contact"
+  url: "/contact/"
+  side: right

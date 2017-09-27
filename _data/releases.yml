@@ -1,0 +1,21 @@
+#- version_name: '1.32'
+#  release_date: 2017-09-12
+#  files:
+#  - name: "cedesk-1.32.exe"
+#    url: https://goo.gl/du38JW
+#    platform: "Windows"
+
+- version_name: '1.31.2'
+  release_date: 2017-09-04
+  files:
+  - name: "cedesk-1.31.2.exe"
+    url: https://goo.gl/du38JW
+    platform: "Windows"
+
+  - name: "cedesk-1.31.2.dmg"
+    url: https://goo.gl/6nzvNi
+    platform: "MacOS X"
+
+  - name: "cedesk-1.31.2.deb"
+    url: https://goo.gl/HpST39
+    platform: "Debian Linux"
