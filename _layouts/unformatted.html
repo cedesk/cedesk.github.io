@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	{% capture ignore %}
+	{% assign url = site.baseurl | prepend: site.url %}
+
+	{% capture description %}{% if page.meta_description %}{{ page.meta_description }}{% elsif page.teaser %}{{ page.teaser }}{% elsif page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% endif %}{% endcapture %}
+	{% assign description = description | strip_html | escape | strip %}
+
+	{% capture title %}{% if page.meta_title %}{{ page.meta_title}}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title | strip_html | strip }}{% endif %}{% endcapture %}
+
+	{% assign title = title | strip_html | escape | strip_newlines %}
+
+	{% endcapture %}<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ title }}</title>
+</head>
+<body>
+
+	{{ content }}
+
+</body>
+</html>
