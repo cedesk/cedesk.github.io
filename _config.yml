@@ -43,7 +43,7 @@ urlimg: 'https://cedesk.github.io/images/'
 urlabout: '/about/'
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: 'logo.png'
 
 # Gems
 gems:
