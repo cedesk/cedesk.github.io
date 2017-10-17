@@ -5,6 +5,21 @@
 #    url: https://goo.gl/du38JW
 #    platform: "Windows"
 
+- version_name: '1.33.3'
+  release_date: 2017-10-17
+  files:
+  - name: "cedesk-1.33.3.exe"
+    url: https://goo.gl/Y89NKh
+    platform: "Windows"
+
+  - name: "cedesk-1.33.3.dmg"
+    url: https://goo.gl/tFXemr
+    platform: "MacOS X"
+
+  - name: "cedesk-1.33.3.deb"
+    url: https://goo.gl/ScWj3w
+    platform: "Debian Linux"
+
 - version_name: '1.33.2'
   release_date: 2017-10-16
   files:
@@ -12,7 +27,7 @@
     url: https://goo.gl/WoiKA3
     platform: "Windows"
 
-  - name: "cedesk-1.33.2.pkg"
+  - name: "cedesk-1.33.2.dmg"
     url: https://goo.gl/53hW2p
     platform: "MacOS X"
 

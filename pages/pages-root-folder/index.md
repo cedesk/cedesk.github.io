@@ -42,6 +42,7 @@ homepage: true
 
 ## Release History
 
+* 2017-10-17 - Version 1.33.3 -- changed default distribution server and repository server
 * 2017-10-16 - Version 1.33.2 -- improved tradespace exploration, offline use
 * 2017-09-04 - Version 1.31.2 -- maintainance release, bug fixing
 * 2017-08-21 - Version 1.30 -- refactored database backend, added tradespace definition and visualization, added work period analysis and parameter change history analysis
