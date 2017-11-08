@@ -13,6 +13,10 @@
     url: https://goo.gl/jECQhF
     platform: "Windows"
 
+  - name: "cedesk-1.34.dmg"
+    url: https://goo.gl/LgoXuU
+    platform: "MacOS X"
+
   - name: "cedesk-1.34.deb"
     url: https://goo.gl/LejfNW
     platform: "Debian Linux"
