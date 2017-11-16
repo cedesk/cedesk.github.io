@@ -42,6 +42,7 @@ homepage: true
 
 ## Release History
 
+* 2017-11-16 - Version 1.35 -- new model node attributes (description, embodiment, completion, position), UI enhancements
 * 2017-11-02 - Version 1.34 -- added support for CSV files as external models
 * 2017-10-17 - Version 1.33.3 -- changed default distribution server and repository server
 * 2017-10-16 - Version 1.33.2 -- improved tradespace exploration, offline use
