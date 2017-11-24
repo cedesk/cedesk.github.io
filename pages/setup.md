@@ -13,7 +13,7 @@ permalink: "/setup/"
 
 ### Installer Packages
 
-{% for package_version in site.data.releases %}
+{% for package_version in site.data.releases limit:3 %}
 <p>version <code class="highlighter-rouge">{{ package_version.version_name }}</code>, released <code class="highlighter-rouge">{{ package_version.release_date }}</code></p>
 <ul>
     {% for item in package_version.files %}
