@@ -5,7 +5,7 @@ header:
 widget1:
   title: "General Concept"
   url: '/info/'
-  image: ''
+  image:
   text: 'CEDESK is a tool to facilitate co-located collaborative model-based conceptual design for complex engineering 
   systems. This type of tool is also known as data exchange for concurrent engineering studies.<br/><br/>
   Multidisciplinary design teams can use CEDESK to facilitate their work together by building shared parametric models
@@ -21,11 +21,11 @@ widget2:
          CEDESK does not duplicate the functionality of existing engineering tools, but rather interconnects existing 
          tools to provide fast and easy-to-use integration among engineering disciplines.
          See <a href="/comparison/">tool comparison</a>.'
-  image: ''
+  image:
 widget3:
   title: "Use &amp; Contribute"
   url: '/setup/'
-  image: ''
+  image:
   text: 'Installation packages of the tool are available for Windows, MacOS and Linux <a href="/setup/">here</a>.
             <br/><br/>
             Check out the source code on <a href="https://github.com/cedesk/data-exchange">GitHub</a> and the
@@ -40,8 +40,20 @@ permalink: /index.html
 homepage: true
 ---
 
+{% assign packages = site.data.releases | first %}
+{% assign package_version = packages %}
+<p>
+  Latest version <code>{{ package_version.version_name }}</code> ({{ package_version.release_date }}),
+  download packages for
+  {% for item in package_version.files %}
+    <a href="{{ item.url }}" title="{{ item.name }}">{{ item.platform }}</a>, 
+  {% endfor %}
+</p>
+
+
 ## Release History
 
+* 2017-11-24 - Version 1.36 -- added component library
 * 2017-11-16 - Version 1.35 -- new model node attributes (description, embodiment, completion, position), UI enhancements
 * 2017-11-02 - Version 1.34 -- added support for CSV files as external models
 * 2017-10-17 - Version 1.33.3 -- changed default distribution server and repository server
