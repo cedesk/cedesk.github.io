@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline:  "The software was used in research on concurrent conceptual design of complex systems"
+subheadline:  "The software is and was used in research on concurrent conceptual design of complex systems"
 title:  "References"
 teaser: 
 categories:
