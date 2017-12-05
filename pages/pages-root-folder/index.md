@@ -53,6 +53,7 @@ homepage: true
 
 ## Release History
 
+* 2017-12-05 - Version 1.37 -- improved exporting/importing model and user-role assignment, added tradespace data import
 * 2017-11-24 - Version 1.36 -- added component library
 * 2017-11-16 - Version 1.35 -- new model node attributes (description, embodiment, completion, position), UI enhancements
 * 2017-11-02 - Version 1.34 -- added support for CSV files as external models
