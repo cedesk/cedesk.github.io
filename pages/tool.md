@@ -11,6 +11,10 @@ header: no
 
 ![Get it]({{ site.urlimg }}/demoSAT-dknoll-Orbit-OrbitSMA.png)
 
+## Modelling with Component Library
+
+![Get it]({{ site.urlimg }}/cedesk-with-component-library.png)
+
 ## Dependency Analysis and Sequence Optimization (DSM method)
 
 ![Get it]({{ site.urlimg }}/demoSAT_DSM.png)
