@@ -20,7 +20,7 @@ The release of CEDESK as open source software was covered by [Skoltech News](htt
 
 The data structures and conceptual modeling approach was presented at the Annual [PLM Conference](http://www.plm-conference.org), in Seville, July 2017.
 
-Fortin, Clément, Grant Mcsorley, Dominik Knoll, Alessandro Golkar, and Ralina Tsykunova. 2017. “Study of Data Structures and Tools for the Concurrent Conceptual Design of Complex Space Systems.” In IFIP 14th International Conference on Product Lifecycle Management 9-12 July 2017, Seville, Spain. Seville.
+Fortin, Clément, Grant Mcsorley, Dominik Knoll, Alessandro Golkar, and Ralina Tsykunova. 2017. “Study of Data Structures and Tools for the Concurrent Conceptual Design of Complex Space Systems.” In IFIP 14th International Conference on Product Lifecycle Management 9-12 July 2017, Seville, Spain. Seville. [doi:10.1007/978-3-319-72905-3_53](https://doi.org/10.1007/978-3-319-72905-3_53).
 
 ### SECESA 2016
 
