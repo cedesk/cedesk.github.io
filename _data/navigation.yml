@@ -12,6 +12,8 @@
   dropdown:
   - title: "Download/Install"
     url: "/setup/"
+  - title: "Getting Started"
+    url: "/getting-started/"
   - title: "Comparison"
     url: "/comparison/"
 
