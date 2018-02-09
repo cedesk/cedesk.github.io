@@ -40,16 +40,12 @@ For managing the dependencies of the software on third-party libraries and defin
 ### Client installer packages
 
 Packaging native installers (win: _.exe_, mac: _.dmg_, linux: _.deb_),
-using a [javafx-maven-plugin](http://javafx-maven-plugin.github.io/), which is a wrapper of the [JavaFX packaging utility](http://docs.oracle.com/javafx/2/deployment/self-contained-packaging.htm).
+using the [javafx-maven-plugin](http://javafx-maven-plugin.github.io/), which is a wrapper of the [JavaFX packaging utility](http://docs.oracle.com/javafx/2/deployment/self-contained-packaging.htm).
 
-The build phase `package` produces the installer for the platform on which the build is running.
-The build phase `deploy` copies the package to an output directory, depending on the environment:
+The build phase `package` produces the installer for the platform on which the build is running. The resulting artifact is found int build directory `target/jfx/native`.
 
-* by default the directory is `${user.home}/development/cedesk-builds`
-
-* if the environment variable `buildserver` is set, then directory is `c:/data/cedesk-builds`
-
-***Requirements***
+***Pre-requisites***
+In order to assemble platform specific installer packages the following tools are required by the [javafx-maven-plugin](http://javafx-maven-plugin.github.io/).
 
 * for Windows: Inno Setup 5 or later from [http://www.jrsoftware.org](http://www.jrsoftware.org)
 
