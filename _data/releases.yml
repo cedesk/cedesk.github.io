@@ -13,6 +13,21 @@
 #     platform: "Debian Linux"
 #     url: 
 
+- version_name: '1.38'
+  release_date: 2018-02-10
+  files:
+  - name: "cedesk-1.38.exe"
+    platform: "Windows"
+    url: https://goo.gl/xthWcs
+
+  - name: "cedesk-1.38.dmg"
+    platform: "MacOS X"
+    url: https://goo.gl/j5PdXQ
+
+  - name: "cedesk-1.38.deb"
+    platform: "Debian Linux"
+    url: https://goo.gl/pA6Hxr
+
 - version_name: '1.37'
   release_date: 2017-12-05
   files:
