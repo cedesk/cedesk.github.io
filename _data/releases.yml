@@ -13,20 +13,20 @@
 #     platform: "Debian Linux"
 #     url: 
 
-- version_name: '1.38.1'
-  release_date: 2018-02-19
+- version_name: '1.38.2'
+  release_date: 2018-02-22
   files:
-  - name: "cedesk-1.38.1.exe"
+  - name: "cedesk-1.38.2.exe"
     platform: "Windows"
-    url: https://goo.gl/wmkLBa
+    url: https://goo.gl/oqm2gb
 
-  - name: "cedesk-1.38.1.dmg"
+  - name: "cedesk-1.38.2.dmg"
     platform: "MacOS X"
-    url: https://goo.gl/hKNQuu
+    url: https://goo.gl/GQUXDy
 
-  - name: "cedesk-1.38.1.deb"
+  - name: "cedesk-1.38.2.deb"
     platform: "Debian Linux"
-    url: https://goo.gl/FEaB5Q
+    url: https://goo.gl/ctmn1N
 
 - version_name: '1.38'
   release_date: 2018-02-10
