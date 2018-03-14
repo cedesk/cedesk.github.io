@@ -15,7 +15,7 @@
 #     url: 
 
 - version_name: '1.39'
-  release_date: 2017-m-d
+  release_date: 2018-03-05
   release_note: DSM sequencing algorithm, bug fixing
   files:
   - name: "cedesk-1.39.exe"

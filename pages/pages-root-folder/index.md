@@ -52,20 +52,11 @@ homepage: true
 
 ## Release History
 
-* 2018-03-05 - Version 1.39 -- DSM sequencing algorithm, bug fixing
-* 2018-02-22 - Version 1.38.2 -- stability and usability improvements
-* 2018-02-19 - Version 1.38.1 -- bug fixing
-* 2018-02-10 - Version 1.38 -- usability improvements, bug fixing
-* 2017-12-05 - Version 1.37 -- improved exporting/importing model and user-role assignment, added tradespace data import
-* 2017-11-24 - Version 1.36 -- added component library
-* 2017-11-16 - Version 1.35 -- new model node attributes (description, embodiment, completion, position), UI enhancements
-* 2017-11-02 - Version 1.34 -- added support for CSV files as external models
-* 2017-10-17 - Version 1.33.3 -- changed default distribution server and repository server
-* 2017-10-16 - Version 1.33.2 -- improved tradespace exploration, offline use
-* 2017-09-04 - Version 1.31.2 -- maintainance release, bug fixing
-* 2017-08-21 - Version 1.30 -- refactored database backend, added tradespace definition and visualization, added work period analysis and parameter change history analysis
-* 2017-07-26 - Version 1.29.1 -- fixed installer builds, logging and shutdown errors
-* 2017-07-24 - Version 1.29 -- first public release as Open Source Software
+<ul>
+{% for package_version in site.data.releases %}
+  <li>{{ package_version.release_date }} - Version: {{ package_version.version_name }} - {{ package_version.release_note }}</li>
+{% endfor %}
+</ul>
 
 ## License
 Copyright 2017 Skolkovo Institute of Science and Technology
