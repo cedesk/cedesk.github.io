@@ -52,6 +52,7 @@ homepage: true
 
 ## Release History
 
+* 2018-03-05 - Version 1.39 -- DSM sequencing algorithm, bug fixing
 * 2018-02-22 - Version 1.38.2 -- stability and usability improvements
 * 2018-02-19 - Version 1.38.1 -- bug fixing
 * 2018-02-10 - Version 1.38 -- usability improvements, bug fixing
