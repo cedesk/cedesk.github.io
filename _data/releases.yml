@@ -14,22 +14,21 @@
 #     platform: "Debian Linux"
 #     url: 
 
-- version_name: '1.40'
+- version_name: '1.40.1'
   release_date: 2019-01-09
-  release_note: Added MySQL 8 compatibility, improved repository settings
+  release_note: Added MySQL 8 compatibility, improved repository settings, fixed repo check
   files:
-  - name: "cedesk-1.40.exe"
+  - name: "cedesk-1.40.1.exe"
     platform: "Windows"
-    url: https://drive.google.com/open?id=19Bi5DSm_amyxCeoAhiDWvpc369PAKkSN
+    url: https://drive.google.com/open?id=1Gdu2DR3WG7SiY-AOZea22Ip17yJ7oVUL
 
-  - name: "cedesk-1.40.dmg"
+  - name: "cedesk-1.40.1.dmg"
     platform: "MacOS X"
-    url: https://drive.google.com/open?id=1LZe7CVEtLuQ_L3Dv6ZxnaKN0kqbCz7R1
+    url: https://drive.google.com/open?id=1yDLn8PSowoolurAKQIDCXMAPgnl6-gXC
 
-  - name: "cedesk-1.40.deb"
+  - name: "cedesk-1.40.1.deb"
     platform: "Debian Linux"
-    url: https://drive.google.com/open?id=1xH_pHaApOdp_GEinZGoFPwQZiSwknHU7
-
+    url: https://drive.google.com/open?id=1TD9HBRN4IbRMLyDHHw3iOit65rNGeVe5
 
 - version_name: '1.39'
   release_date: 2018-03-05
@@ -67,114 +66,36 @@
   release_date: 2018-02-10
   release_note: usability improvements, bug fixing
   files:
-  - name: "cedesk-1.38.exe"
-    platform: "Windows"
-    url: https://goo.gl/xthWcs
-
-  - name: "cedesk-1.38.dmg"
-    platform: "MacOS X"
-    url: https://goo.gl/j5PdXQ
-
-  - name: "cedesk-1.38.deb"
-    platform: "Debian Linux"
-    url: https://goo.gl/pA6Hxr
 
 - version_name: '1.37'
   release_date: 2017-12-05
   release_note: improved exporting/importing model and user-role assignment, added tradespace data import
   files:
-  - name: "cedesk-1.37.exe"
-    platform: "Windows"
-    url: https://goo.gl/MFsDqj
-
-  - name: "cedesk-1.37.dmg"
-    platform: "MacOS X"
-    url: https://goo.gl/F2xYN7
-
-  - name: "cedesk-1.37.deb"
-    platform: "Debian Linux"
-    url: https://goo.gl/wyEqYb
 
 - version_name: '1.36'
   release_date: 2017-11-24
   release_note: added component library
   files:
-  - name: "cedesk-1.36.exe"
-    url: https://goo.gl/igPTdn
-    platform: "Windows"
-
-  - name: "cedesk-1.36.dmg"
-    url: https://goo.gl/Phvzw4
-    platform: "MacOS X"
-
-  - name: "cedesk-1.36.deb"
-    url: https://goo.gl/4WpJMM
-    platform: "Debian Linux"
 
 - version_name: '1.35'
   release_date: 2017-11-16
   release_note: new model node attributes (description, embodiment, completion, position), UI enhancements
   files:
-  - name: "cedesk-1.35.exe"
-    url: https://goo.gl/KH8VL2
-    platform: "Windows"
-
-  - name: "cedesk-1.35.dmg"
-    url: https://goo.gl/d2npyW
-    platform: "MacOS X"
-
-  - name: "cedesk-1.35.deb"
-    url: https://goo.gl/3J5Tvg
-    platform: "Debian Linux"
 
 - version_name: '1.34'
   release_date: 2017-11-02
   release_note: added support for CSV files as external models
   files:
-  - name: "cedesk-1.34.exe"
-    url: https://goo.gl/jECQhF
-    platform: "Windows"
-
-  - name: "cedesk-1.34.dmg"
-    url: https://goo.gl/LgoXuU
-    platform: "MacOS X"
-
-  - name: "cedesk-1.34.deb"
-    url: https://goo.gl/LejfNW
-    platform: "Debian Linux"
 
 - version_name: '1.33.3'
   release_date: 2017-10-17
   release_note: improved tradespace exploration, offline use, changed default distribution server and repository server
   files:
-  - name: "cedesk-1.33.3.exe"
-    url: https://goo.gl/Y89NKh
-    platform: "Windows"
-
-  - name: "cedesk-1.33.3.dmg"
-    url: https://goo.gl/tFXemr
-    platform: "MacOS X"
-
-  - name: "cedesk-1.33.3.deb"
-    url: https://goo.gl/ScWj3w
-    platform: "Debian Linux"
-
 
 - version_name: '1.31.2'
   release_date: 2017-09-04
   release_note: maintainance release, bug fixing
   files:
-  - name: "cedesk-1.31.2.exe"
-    url: https://goo.gl/du38JW
-    platform: "Windows"
-
-  - name: "cedesk-1.31.2.dmg"
-    url: https://goo.gl/6nzvNi
-    platform: "MacOS X"
-
-  - name: "cedesk-1.31.2.deb"
-    url: https://goo.gl/HpST39
-    platform: "Debian Linux"
 
 - version_name: '1.30'
   release_date: 2017-08-21
