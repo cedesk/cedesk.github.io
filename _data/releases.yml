@@ -26,6 +26,10 @@
     platform: "MacOS X"
     url: https://drive.google.com/open?id=1agXbmY4mRqm6w2oipnYvSPhDaX7r89tz
 
+  - name: "cedesk-1.42.deb"
+    platform: "Debian Linux"
+    url: https://drive.google.com/open?id=1tGgcNKWRNMhjpLRUkIrS_GsuxbbApXZz
+
 - version_name: '1.40.1'
   release_date: 2019-01-09
   release_note: Added MySQL 8 compatibility, improved repository settings, fixed repo check
