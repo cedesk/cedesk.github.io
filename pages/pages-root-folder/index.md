@@ -6,7 +6,8 @@ widget1:
   title: "General Concept"
   url: '/about/'
   image:
-  text: 'CEDESK is a tool to facilitate co-located collaborative model-based conceptual design for complex engineering systems. This type of tool is also known as data exchange for concurrent engineering studies.<br/><br/>
+  text: 'CEDESK is a tool to facilitate co-located collaborative model-based conceptual design for complex engineering systems. This type of tool is also known as data exchange for concurrent engineering studies.<br/>
+  More complete <a href="/documents/CEDESK-documentation.pdf">documentation can be found here</a>.<br/>
   Multidisciplinary design teams can use CEDESK to facilitate their work together by building shared parametric models of their system of interest.'
 widget3:
   title: "Features"

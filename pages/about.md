@@ -12,6 +12,8 @@ header:
 
 CEDESK is a tool to facilitate co-located collaborative model-based conceptual design for complex engineering systems. This type of tool is also known as data exchange for concurrent engineering studies.
 
+More complete [documentation can be found here](/documents/CEDESK-documentation.pdf).
+
 Multidisciplinary design teams can use CEDESK to facilitate their work together by building shared parametric models of their system of interest.
 
 ## Features
